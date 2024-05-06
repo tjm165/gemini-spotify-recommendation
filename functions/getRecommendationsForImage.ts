@@ -8,7 +8,7 @@ dotenv.config();
 const mimeType = "image/png";
 
 async function geminiPromptWithImage(prompt: string, imageParts: any) {
-  const genAI = new GoogleGenerativeAI(process.env.BARD_API_KEY);
+  const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
   // For text-and-image input (multimodal), use the gemini-pro-vision model
   const model = genAI.getGenerativeModel({ model: "gemini-pro-vision" });
