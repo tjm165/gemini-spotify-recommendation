@@ -16,7 +16,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
     - `SPOTIFY_CLIENT_ID` and `SPOTIFY_CLIENT_SECRET` can be created through the [Spotify API Docs](https://developer.spotify.com/documentation/web-api)
 1.  Run the development server
 
-        ```bash
+        bash
         npm run dev
         # or
         yarn dev
@@ -24,7 +24,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
         pnpm dev
         # or
         bun dev
-        ```
 
 1.  Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
