@@ -14,7 +14,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
     - `cp .env-sample .env`
     - `GEMINI_API_KEY` can be created through the [Gemini API Docs](https://gemini.google.com/app)
     - `SPOTIFY_CLIENT_ID` and `SPOTIFY_CLIENT_SECRET` can be created through the [Spotify API Docs](https://developer.spotify.com/documentation/web-api)
-2.  Run the development server
+1.  Run the development server
 
         ```bash
         npm run dev
@@ -26,7 +26,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
         bun dev
         ```
 
-    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1.  Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Deploy on Vercel
 
